@@ -13,16 +13,16 @@ namespace GenericMethode
 
         static void Main(string[] args)
         {
-            Console.WriteLine("insert the First number :");
-            double num1=Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("insert the Second number :");
-            double num2 = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("insert the third number :");
-            double num3 = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("insert the First String :");
+           String value1=(Console.ReadLine());
+            Console.WriteLine("insert the Second String :");
+            String value2 = (Console.ReadLine());
+            Console.WriteLine("insert the third String :");
+            String value3 = (Console.ReadLine());
 
 
-            double result = Maximum.MaxIntNumber(num1, num2, num3);
-            Console.WriteLine("{0} number is gretest of other values :",result);
+            String result = Maximum.MaxIntNumber(value1, value2, value3);
+            Console.WriteLine("{0} String is gretest of other String :",result);
 
 
             Console.ReadLine();
