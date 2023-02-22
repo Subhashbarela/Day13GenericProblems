@@ -9,7 +9,7 @@ namespace GenericMethode
     internal class Maximum
     {
         
-        public static int MaxIntNumber(int firstValue,int seconValue,int thirdValue)
+        public static double MaxIntNumber(double firstValue, double seconValue, double thirdValue)
         {
            
             if(firstValue.CompareTo(seconValue)>0 && firstValue.CompareTo(thirdValue) >0 ||

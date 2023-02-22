@@ -14,14 +14,14 @@ namespace GenericMethode
         static void Main(string[] args)
         {
             Console.WriteLine("insert the First number :");
-            int num1=Convert.ToInt32(Console.ReadLine());
+            double num1=Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("insert the Second number :");
-            int num2 = Convert.ToInt32(Console.ReadLine());
+            double num2 = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("insert the third number :");
-            int num3 = Convert.ToInt32(Console.ReadLine());
+            double num3 = Convert.ToDouble(Console.ReadLine());
 
 
-            int result = Maximum.MaxIntNumber(num1, num2, num3);
+            double result = Maximum.MaxIntNumber(num1, num2, num3);
             Console.WriteLine("{0} number is gretest of other values :",result);
 
 
